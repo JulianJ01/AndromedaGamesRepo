@@ -183,8 +183,8 @@ body {
 /* footer */
 
 .footer{
-    padding-top: 10vh;
-    padding-bottom: 10px;
+    padding-top: 12vh;
+    padding-bottom:10px;
     font-family:'Cutive Mono', monospace, sans-serif;
     clear: left;
     display: block;
@@ -223,7 +223,6 @@ body {
 .footer_child > :last-child {
   margin-top: 1rem;
 }
-
 /* Screen Sizes */
 
 @media screen and (max-width: 900px) {
