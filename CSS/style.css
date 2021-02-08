@@ -75,7 +75,9 @@ body {
     float: right;
     width: 50vw;
     max-height: 47vh;
-    padding: 6%;
+    padding-bottom: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 
 /* row 2 */
