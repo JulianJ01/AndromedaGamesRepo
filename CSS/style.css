@@ -64,32 +64,34 @@ body {
 
 .row-1 {
     width: 100vw;
+    height: 47vh;
 }
 
 .img-1 {
     float: left;
-    min-width: 50vw;
-    min-height: 47vh;
+    width: 50vw;
+    height: 47vh;
 }
 
 .img-1 img {
     width: 50vw;
-    max-height: 42vh;
+    height: 47vh;
 }
 
 .text-box-1 {
     float: right;
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
     padding-bottom: 6%;
-    padding-right: 6%;
     padding-left: 6%;
+    padding-right: 6%;
 }
 
 /* row 2 */
 
 .row-2 {
     width: 100vw;
+    height: 47vh;
 }
 
 .img-2 {
@@ -100,13 +102,13 @@ body {
 
 .img-2 img {
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
 }
 
 .text-box-2 {
     float: left;
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
     padding: 6%;
 }
 
@@ -114,17 +116,18 @@ body {
 
 .row-3 {
     width: 100vw;
+    height: 47vh;
 }
 
 .img-3 {
     float: left;
-    min-width: 50vw;
-    min-height: 47vh;
+    width: 50vw;
+    height: 47vh;
 }
 
 .img-3 img {
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
 }
 
 .text-box-3 {
@@ -136,23 +139,28 @@ body {
 
 /* row 4 */
 
+.row-4 {
+    width: 100vw;
+    height: 47vh;
+}
+
 .text-box-4 {
     float: left;
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
     padding: 6%;
 }
 
 .vid-1 {
     float: right;
-    min-width: 50vw;
-    min-height: 47vh;
+    width: 50vw;
+    height: 47vh;
 }
 
 .vid-1 video {
     outline: none;
     width: 50vw;
-    max-height: 47vh;
+    height: 47vh;
 }
 
 /* row 5 */
@@ -229,7 +237,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .text-box-1, .text-box-2, .text-box-3, .text-box-4 {
-        width: 99vw;
+        width: 100vw;
     }
     .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img, .vid-1, .vid-1 video {
         width: 99vw;
