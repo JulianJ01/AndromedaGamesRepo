@@ -147,6 +147,34 @@ body {
     max-height: 47vh;
 }
 
+/* row 5 */
+
+.row-5 {
+    padding-top: 5%;
+}
+
+.row-5, .row-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.column-img {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    flex: 1;
+}
+
+.column-img img {
+    width: 25vw;
+    height: auto;
+    border: solid black 5px;
+}
+
+
+
 /* footer */
 
 
