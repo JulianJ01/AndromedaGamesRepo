@@ -174,7 +174,7 @@ body {
 
 .column-img img {
     width: 25vw;
-    height: auto;
+    height: 30vh;
     border: solid black 5px;
 }
 
@@ -234,5 +234,9 @@ body {
 
     .title {
         font-size: 12px;
+    }
+
+    .column-img img {
+        height: 15vh;
     }
 }
