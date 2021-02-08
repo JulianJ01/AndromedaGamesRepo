@@ -155,7 +155,7 @@ body {
 /* Screen Sizes */
 
 @media screen and (max-width: 900px) {
-    .text-box-1, .text-box-2, .text-box-3 {
+    .text-box-1, .text-box-2, .text-box-3, .text-box-4 {
         width: 100vw;
     }
     .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img, .vid-1, .vid-1 video {
