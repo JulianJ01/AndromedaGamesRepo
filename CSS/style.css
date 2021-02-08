@@ -183,8 +183,8 @@ body {
 /* footer */
 
 .footer{
-    padding-top:30px;
-    padding-bottom:10px;
+    padding-top: 12vh;
+    padding-bottom: 1vh;
     font-family:'Cutive Mono', monospace, sans-serif;
     clear: left;
     display: block;
@@ -196,16 +196,16 @@ body {
 .social_c {
     margin-left:auto;
     margin-right:auto;
-    width:160px;
-    height:32px;
-    margin-bottom:30px
+    width: 15vw;
+    height: 5vh;
+    margin-bottom: 3vh
 }
 
 .social_media {
     float: left;
     display: inline-block;
-    width:32px;
-    height:32px;
+    width: 32px;
+    height: 32px;
 }
 .sp{
     margin-right: 10px;
