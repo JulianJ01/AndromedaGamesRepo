@@ -1,3 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url(../Assets/bg.png);
+    background-color: black;
+    color: whitesmoke;
+}
+
+.title {
+    padding-top: 2%;
+    margin: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2%;
+    font-family: AloneInSpace;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "AloneInSpace";
+    src: url("../Assets/AloneInSpaceReguler-qZ2xr.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MIB";
+    src: url("../Assets/MIB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pixelated";
+    src: url("../Assets/pixelated.ttf") format("truetype");
+}
+
+/* General */
+
+.row-1 h1, .row-2 h1, .row-3 h1 {
+    text-align: center;
+    font-family: MIB;
+}
+
+.row-1 p, .row-2 p, .row-3 p {
+    font-family: Pixelated;
+}
+
+/* row 1 */
+
+.row-1 {
+    width: 100vw;
+}
+
+.img-1 {
+    float: left;
+    min-width: 50vw;
+    min-height: 47vh;
+}
+
+.img-1 img {
+    width: 50vw;
+    max-height: 47vh;
+}
+
+.text-box-1 {
+    float: right;
+    width: 50vw;
+    max-height: 47vh;
+    padding: 7%;
+}
+
+/* row 2 */
+
+.row-2 {
+    width: 100vw;
+}
+
+.img-2 {
+    float: right;
+    min-width: 50vw;
+    min-height: 47vh;
+}
+
+.img-2 img {
+    width: 50vw;
+    max-height: 47vh;
+}
+
+.text-box-2 {
+    float: left;
+    width: 50vw;
+    max-height: 47vh;
+    padding: 7%;
+}
+
+/* row 3 */
+
+.row-3 {
+    width: 100vw;
+}
+
+.img-3 {
+    float: left;
+    min-width: 50vw;
+    min-height: 47vh;
+}
+
+.img-3 img {
+    width: 50vw;
+    max-height: 47vh;
+}
+
+.text-box-3 {
+    float: right;
+    width: 50vw;
+    max-height: 47vh;
+    padding: 7%;
+}
+
+/* footer */
+
+
+/* Screen Sizes */
+
+@media screen and (max-width: 900px) {
+    .text-box-1, .text-box-2, .text-box-3 {
+        width: 100vw;
+    }
+    .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img {
+        width: 100vw;
+    }
+
+    .title {
+        font-size: 12px;
+    }
 }
