@@ -20,6 +20,10 @@ body {
     font-family: AloneInSpace;
 }
 
+.title h1 {
+    color: rgb(1, 178, 155);
+}
+
 /* Fonts */
 
 @font-face {
@@ -39,13 +43,13 @@ body {
 
 /* General */
 
-.row-1 h1, .row-2 h1, .row-3 h1 {
+.row-1 h1, .row-2 h1, .row-3 h1, .row-4 h1 {
     text-align: center;
     font-family: MIB;
     color: rgb(52, 165, 65);
 }
 
-.row-1 p, .row-2 p, .row-3 p {
+.row-1 p, .row-2 p, .row-3 p, .row-4 p {
     font-family: Pixelated;
     color: rgb(52, 165, 65);
 }
@@ -95,9 +99,7 @@ body {
     float: left;
     width: 50vw;
     max-height: 47vh;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 6%;
+    padding: 6%;
 }
 
 /* row 3 */
@@ -121,9 +123,7 @@ body {
     float: right;
     width: 50vw;
     max-height: 47vh;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 6%;
+    padding: 6%;
 }
 
 /* row 4 */
@@ -132,9 +132,7 @@ body {
     float: left;
     width: 50vw;
     max-height: 47vh;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 6%;
+    padding: 6%;
 }
 
 .vid-1 {
