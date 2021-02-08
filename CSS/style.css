@@ -62,7 +62,7 @@ body {
 
 .img-1 img {
     width: 50vw;
-    max-height: 47vh;
+    max-height: 42vh;
 }
 
 .text-box-1 {
@@ -120,6 +120,20 @@ body {
     padding: 7%;
 }
 
+/* row 4 */
+
+.vid-1 {
+    float: right;
+    min-width: 50vw;
+    min-height: 47vh;
+}
+
+.vid-1 video {
+    outline: none;
+    width: 50vw;
+    max-height: 47vh;
+}
+
 /* footer */
 
 
@@ -129,7 +143,7 @@ body {
     .text-box-1, .text-box-2, .text-box-3 {
         width: 100vw;
     }
-    .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img {
+    .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img, .vid-1, .vid-1 video {
         width: 100vw;
     }
 
