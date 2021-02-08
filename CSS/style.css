@@ -196,13 +196,12 @@ body {
 .social_c {
     margin-left:auto;
     margin-right:auto;
-    width:160px;
+    width:200px;
     height:32px;
     margin-bottom:30px
 }
 
 .social_media {
-    float: left;
     display: inline-block;
     width:32px;
     height:32px;
