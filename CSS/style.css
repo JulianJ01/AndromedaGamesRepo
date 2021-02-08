@@ -240,6 +240,7 @@ body {
     }
 
     .column-img img {
-        height: 10vh;
+        height: 20vh;
+        width: 50vw;
     }
 }
