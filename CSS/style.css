@@ -182,6 +182,47 @@ body {
 
 /* footer */
 
+.footer{
+    padding-top:30px;
+    padding-bottom:10px;
+    font-family:'Cutive Mono', monospace, sans-serif;
+    clear: left;
+    display: block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.social_c {
+    margin-left:auto;
+    margin-right:auto;
+    width:160px;
+    height:32px;
+    margin-bottom:30px
+}
+
+.social_media {
+    float: left;
+    display: inline-block;
+    width:32px;
+    height:32px;
+}
+.sp{
+    margin-right: 10px;
+}
+
+.footer_child {
+  max-width: 80%;
+  margin: 0 auto 1rem auto;
+}
+
+.footer_child > :first-child {
+  margin-bottom: 1rem;
+}
+
+.footer_child > :last-child {
+  margin-top: 1rem;
+}
 
 /* Screen Sizes */
 
