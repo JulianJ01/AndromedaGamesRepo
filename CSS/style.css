@@ -241,6 +241,7 @@ body {
     }
     .img-1, .img-1 img, .img-2, .img-2 img, .img-3, .img-3 img, .vid-1, .vid-1 video {
         width: 99vw;
+        height: 30vh;
     }
 
     .title {
