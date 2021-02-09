@@ -47,7 +47,7 @@ body {
 .row-1 h1, .row-2 h1, .row-3 h1, .row-4 h1 {
     text-align: center;
     font-family: MIB;
-    color: rgb(52, 165, 65);
+    color: rgb(87, 255, 109);
     /*color: rgb(1, 178, 155);*/
 }
 
@@ -97,7 +97,7 @@ body {
 
 .img-2 img {
     width: 50vw;
-    max-height: 47vh;
+    max-height: 50vh;
 }
 
 .text-box-2 {
