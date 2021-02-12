@@ -270,4 +270,8 @@ body {
     .footer {
         padding-top: 0vh;
     }
+
+    .text-box-2 {
+        padding-top: 0;
+    }
 }
