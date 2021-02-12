@@ -233,6 +233,14 @@ body {
 .footer_child > :last-child {
   margin-top: 1rem;
 }
+
+#logo {
+    margin-top: 18vh;
+    margin-right: 2vw;
+    float: right;
+    height: 20vh;
+    width: auto;
+}
 /* Screen Sizes */
 
 @media screen and (max-width: 900px) {
@@ -252,5 +260,14 @@ body {
     .column-img img {
         height: 15vh;
         width: 50vw;
+    }
+
+    #logo {
+        float: none;
+        margin: 0;
+    }
+
+    .footer {
+        padding-top: 0vh;
     }
 }
